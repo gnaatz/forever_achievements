@@ -6,6 +6,7 @@
         "title": "Structured Exploration",
         "description": "Visit every structure once",
         "show_toast": true,
+        "frame": "challenge",
         "announce_to_chat": true,
         "hidden": false
     },
