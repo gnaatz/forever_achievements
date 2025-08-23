@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": "No need to Scream",
+    "description": "Collect all screaming goat horns",
+    "show_toast": true,
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "forever:forever/all_normal_goat_horns",
+  "criteria": {
+    "admire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:goat_horn"],
+            "components": {
+              "minecraft:instrument": "minecraft:admire_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "call": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:goat_horn"],
+            "components": {
+              "minecraft:instrument": "minecraft:call_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "yearn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:goat_horn"],
+            "components": {
+              "minecraft:instrument": "minecraft:yearn_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "dream": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:goat_horn"],
+            "components": {
+              "minecraft:instrument": "minecraft:dream_goat_horn"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

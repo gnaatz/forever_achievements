@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": "That's not a Trombone",
+    "description": "Collect all normal goat horns",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "forever:forever/collector",
+  "criteria": {
+    "ponder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:goat_horn"],
+            "components": {
+              "minecraft:instrument": "minecraft:ponder_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "sing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:goat_horn"],
+            "components": {
+              "minecraft:instrument": "minecraft:sing_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "seek": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:goat_horn"],
+            "components": {
+              "minecraft:instrument": "minecraft:seek_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "feel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:goat_horn"],
+            "components": {
+              "minecraft:instrument": "minecraft:feel_goat_horn"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

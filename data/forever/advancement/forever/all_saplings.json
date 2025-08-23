@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": "Arborist",
+    "description": "Collect all the things a tree grows out of",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "forever:forever/collector",
+    "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:oak_sapling"] }] }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:birch_sapling"] }] }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:spruce_sapling"] }] }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:jungle_sapling"] }] }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:acacia_sapling"] }] }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:dark_oak_sapling"] }] }
+    },
+    "cherry_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:cherry_sapling"] }] }
+    },
+    "azalea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:azalea"] }] }
+    },
+    "flowering_azalea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:flowering_azalea"] }] }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:mangrove_propagule"] }] }
+    },
+    "bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:bamboo"] }] }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}
