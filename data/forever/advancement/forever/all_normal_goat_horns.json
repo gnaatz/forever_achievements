@@ -16,7 +16,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:goat_horn"],
+            "items": [
+              "minecraft:goat_horn"
+            ],
             "components": {
               "minecraft:instrument": "minecraft:ponder_goat_horn"
             }
@@ -29,7 +31,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:goat_horn"],
+            "items": [
+              "minecraft:goat_horn"
+            ],
             "components": {
               "minecraft:instrument": "minecraft:sing_goat_horn"
             }
@@ -42,7 +46,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:goat_horn"],
+            "items": [
+              "minecraft:goat_horn"
+            ],
             "components": {
               "minecraft:instrument": "minecraft:seek_goat_horn"
             }
@@ -55,7 +61,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:goat_horn"],
+            "items": [
+              "minecraft:goat_horn"
+            ],
             "components": {
               "minecraft:instrument": "minecraft:feel_goat_horn"
             }
