@@ -1,0 +1,292 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:note_block"
+    },
+    "title": "Orchestrator",
+    "description": "Play all possible note block sounds",
+    "show_toast": true,
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/play_jukebox_in_meadows",
+  "criteria": {
+    "harp": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "harp" }
+          }
+        ]
+      }
+    },
+    "basedrum": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "basedrum" }
+          }
+        ]
+      }
+    },
+    "snare": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "snare" }
+          }
+        ]
+      }
+    },
+    "hat": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "hat" }
+          }
+        ]
+      }
+    },
+    "bass": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "bass" }
+          }
+        ]
+      }
+    },
+    "flute": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "flute" }
+          }
+        ]
+      }
+    },
+    "bell": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "bell" }
+          }
+        ]
+      }
+    },
+    "guitar": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "guitar" }
+          }
+        ]
+      }
+    },
+    "chime": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "chime" }
+          }
+        ]
+      }
+    },
+    "xylophone": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "xylophone" }
+          }
+        ]
+      }
+    },
+    "iron_xylophone": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "iron_xylophone" }
+          }
+        ]
+      }
+    },
+    "cow_bell": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "cow_bell" }
+          }
+        ]
+      }
+    },
+    "didgeridoo": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "didgeridoo" }
+          }
+        ]
+      }
+    },
+    "bit": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "bit" }
+          }
+        ]
+      }
+    },
+    "banjo": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "banjo" }
+          }
+        ]
+      }
+    },
+    "pling": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "pling" }
+          }
+        ]
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "zombie" }
+          }
+        ]
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "skeleton" }
+          }
+        ]
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "creeper" }
+          }
+        ]
+      }
+    },
+    "dragon": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "dragon" }
+          }
+        ]
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "wither_skeleton" }
+          }
+        ]
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "piglin" }
+          }
+        ]
+      }
+    },
+    "custom_head": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block",
+            "properties": { "instrument": "custom_head" }
+          }
+        ]
+      }
+    }
+  }
+}
