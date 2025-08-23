@@ -71,16 +71,6 @@
           }
         }
       }
-    },
-    "absorption": {
-      "trigger": "minecraft:effects_changed",
-      "conditions": {
-        "effects": {
-          "minecraft:absorption": {
-            "ambient": true
-          }
-        }
-      }
     }
   },
   "rewards": {
