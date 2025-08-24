@@ -9,7 +9,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "forever:forever/collector",
+    "parent": "forever:forever/all_colors",
     "criteria": {
         "alban": {
             "trigger": "minecraft:impossible"
