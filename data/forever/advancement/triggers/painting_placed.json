@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "match_tool",
+            "predicate": {
+                "items": "minecraft:painting"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "forever:grant_painting_condition"
+  }
+}

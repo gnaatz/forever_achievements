@@ -1,0 +1,159 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:painting"
+        },
+        "title": "Artist",
+        "description": "Place every painting variant",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "forever:forever/collector",
+    "criteria": {
+        "alban": {
+            "trigger": "minecraft:impossible"
+        },
+        "aztec": {
+            "trigger": "minecraft:impossible"
+        },
+        "aztec2": {
+            "trigger": "minecraft:impossible"
+        },
+        "bomb": {
+            "trigger": "minecraft:impossible"
+        },
+        "plant": {
+            "trigger": "minecraft:impossible"
+        },
+        "wasteland": {
+            "trigger": "minecraft:impossible"
+        },
+        "kebab": {
+            "trigger": "minecraft:impossible"
+        },
+        "backyard": {
+            "trigger": "minecraft:impossible"
+        },
+        "pond": {
+            "trigger": "minecraft:impossible"
+        },
+        "courbet": {
+            "trigger": "minecraft:impossible"
+        },
+        "pool": {
+            "trigger": "minecraft:impossible"
+        },
+        "sea": {
+            "trigger": "minecraft:impossible"
+        },
+        "sunset": {
+            "trigger": "minecraft:impossible"
+        },
+        "creebet": {
+            "trigger": "minecraft:impossible"
+        },
+        "graham": {
+            "trigger": "minecraft:impossible"
+        },
+        "wanderer": {
+            "trigger": "minecraft:impossible"
+        },
+        "match": {
+            "trigger": "minecraft:impossible"
+        },
+        "bust": {
+            "trigger": "minecraft:impossible"
+        },
+        "stage": {
+            "trigger": "minecraft:impossible"
+        },
+        "void": {
+            "trigger": "minecraft:impossible"
+        },
+        "skull_and_roses": {
+            "trigger": "minecraft:impossible"
+        },
+        "wither": {
+            "trigger": "minecraft:impossible"
+        },
+        "fighters": {
+            "trigger": "minecraft:impossible"
+        },
+        "skeleton": {
+            "trigger": "minecraft:impossible"
+        },
+        "donkey_kong": {
+            "trigger": "minecraft:impossible"
+        },
+        "pointer": {
+            "trigger": "minecraft:impossible"
+        },
+        "pigscene": {
+            "trigger": "minecraft:impossible"
+        },
+        "burning_skull": {
+            "trigger": "minecraft:impossible"
+        },
+        "baroque": {
+            "trigger": "minecraft:impossible"
+        },
+        "humble": {
+            "trigger": "minecraft:impossible"
+        },
+        "meditative": {
+            "trigger": "minecraft:impossible"
+        },
+        "prairie_ride": {
+            "trigger": "minecraft:impossible"
+        },
+        "unpacked": {
+            "trigger": "minecraft:impossible"
+        },
+        "endboss": {
+            "trigger": "minecraft:impossible"
+        },
+        "fern": {
+            "trigger": "minecraft:impossible"
+        },
+        "bouquet": {
+            "trigger": "minecraft:impossible"
+        },
+        "cavebird": {
+            "trigger": "minecraft:impossible"
+        },
+        "cotan": {
+            "trigger": "minecraft:impossible"
+        },
+        "owlemons": {
+            "trigger": "minecraft:impossible"
+        },
+        "sunflowers": {
+            "trigger": "minecraft:impossible"
+        },
+        "tides": {
+            "trigger": "minecraft:impossible"
+        },
+        "orb": {
+            "trigger": "minecraft:impossible"
+        },
+        "pack": {
+            "trigger": "minecraft:impossible"
+        },
+        "earth": {
+            "trigger": "minecraft:impossible"
+        },
+        "fire": {
+            "trigger": "minecraft:impossible"
+        },
+        "water": {
+            "trigger": "minecraft:impossible"
+        },
+        "wind": {
+            "trigger": "minecraft:impossible"
+        },
+        "dennis": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
