@@ -1,11 +1,11 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_block"
+      "id": "minecraft:netherite_ingot"
     },
     "title": "A World Forever",
     "description": "Start the forever world",
-    "background": "minecraft:block/pale_oak_planks",
+    "background": "minecraft:block/netherite_block",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
