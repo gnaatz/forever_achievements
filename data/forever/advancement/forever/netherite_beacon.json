@@ -3,10 +3,11 @@
     "icon": {
       "id": "minecraft:netherite_block"
     },
-    "title": "The Collector",
-    "description": "Get a bundle to start collecting",
+    "title": "Serious Dedication II",
+    "description": "Build a full netherite beacon",
     "show_toast": true,
     "announce_to_chat": true,
+    "frame": "challenge",
     "hidden": false
   },
   "parent": "forever:forever/builder",
