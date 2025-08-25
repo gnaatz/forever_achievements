@@ -1,0 +1,76 @@
+
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_banner_pattern"
+    },
+    "title": "Vexillographer",
+    "description": "Collect all banner patterns",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "forever:forever/collector",
+  "criteria": {
+    "creeper_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:creeper_banner_pattern" }]
+      }
+    },
+    "skull_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:skull_banner_pattern" }]
+      }
+    },
+    "flower_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:flower_banner_pattern" }]
+      }
+    },
+    "mojang_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:mojang_banner_pattern" }]
+      }
+    },
+    "globe_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:globe_banner_pattern" }]
+      }
+    },
+    "piglin_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:piglin_banner_pattern" }]
+      }
+    },
+    "flow_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:flow_banner_pattern" }]
+      }
+    },
+    "guster_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:guster_banner_pattern" }]
+      }
+    },
+    "field_masoned_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:field_masoned_banner_pattern" }]
+      }
+    },
+    "bordure_indented_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:bordure_indented_banner_pattern" }]
+      }
+    }
+  }
+}
