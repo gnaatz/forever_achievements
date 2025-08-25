@@ -103,7 +103,6 @@ execute unless block ~2 ~-3 ~3 minecraft:netherite_block run scoreboard players 
 execute unless block ~3 ~-3 ~3 minecraft:netherite_block run scoreboard players set @s netheriteBeaconCheck 0
 
 ### Fourth Layer
-
 execute unless block ~-4 ~-4 ~-4 minecraft:netherite_block run scoreboard players set @s netheriteBeaconCheck 0
 execute unless block ~-3 ~-4 ~-4 minecraft:netherite_block run scoreboard players set @s netheriteBeaconCheck 0
 execute unless block ~-2 ~-4 ~-4 minecraft:netherite_block run scoreboard players set @s netheriteBeaconCheck 0
@@ -194,4 +193,5 @@ execute unless block ~2 ~-4 ~4 minecraft:netherite_block run scoreboard players 
 execute unless block ~3 ~-4 ~4 minecraft:netherite_block run scoreboard players set @s netheriteBeaconCheck 0
 execute unless block ~4 ~-4 ~4 minecraft:netherite_block run scoreboard players set @s netheriteBeaconCheck 0
 
-execute if score @s netheriteBeaconCheck matches 1 run advancement grant @s only forever:forever/netherite_beacon
+scoreboard players get @s netheriteBeaconCheck
+execute if score @s netheriteBeaconCheck matches 1 run advancement grant @s only forever:forever/netherite_beacon netherite

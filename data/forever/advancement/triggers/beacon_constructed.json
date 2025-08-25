@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "forever:check_beacon_type"
+    "function": "forever:check_player_on_top_of_beacon"
   }
 }
