@@ -1,0 +1,458 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:fire_coral_fan"
+        },
+        "title": "Reef Builder",
+        "description": "Place every coral, dead and alive",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "forever:forever/builder",
+    "criteria": {
+        "tube_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:tube_coral_block"
+          }
+        ]
+      }
+    },
+    "brain_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:brain_coral_block"
+          }
+        ]
+      }
+    },
+    "bubble_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:bubble_coral_block"
+          }
+        ]
+      }
+    },
+    "fire_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:fire_coral_block"
+          }
+        ]
+      }
+    },
+    "horn_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:horn_coral_block"
+          }
+        ]
+      }
+    },
+    "dead_tube_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_tube_coral_block"
+          }
+        ]
+      }
+    },
+    "dead_brain_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_brain_coral_block"
+          }
+        ]
+      }
+    },
+    "dead_bubble_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_bubble_coral_block"
+          }
+        ]
+      }
+    },
+    "dead_fire_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_fire_coral_block"
+          }
+        ]
+      }
+    },
+    "dead_horn_coral_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_horn_coral_block"
+          }
+        ]
+      }
+    },
+
+    "tube_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:tube_coral"
+          }
+        ]
+      }
+    },
+    "brain_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:brain_coral"
+          }
+        ]
+      }
+    },
+    "bubble_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:bubble_coral"
+          }
+        ]
+      }
+    },
+    "fire_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:fire_coral"
+          }
+        ]
+      }
+    },
+    "horn_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:horn_coral"
+          }
+        ]
+      }
+    },
+    "dead_tube_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_tube_coral"
+          }
+        ]
+      }
+    },
+    "dead_brain_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_brain_coral"
+          }
+        ]
+      }
+    },
+    "dead_bubble_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_bubble_coral"
+          }
+        ]
+      }
+    },
+    "dead_fire_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_fire_coral"
+          }
+        ]
+      }
+    },
+    "dead_horn_coral": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_horn_coral"
+          }
+        ]
+      }
+    },
+
+    "tube_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:tube_coral_fan"
+          }
+        ]
+      }
+    },
+    "brain_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:brain_coral_fan"
+          }
+        ]
+      }
+    },
+    "bubble_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:bubble_coral_fan"
+          }
+        ]
+      }
+    },
+    "fire_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:fire_coral_fan"
+          }
+        ]
+      }
+    },
+    "horn_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:horn_coral_fan"
+          }
+        ]
+      }
+    },
+    "dead_tube_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_tube_coral_fan"
+          }
+        ]
+      }
+    },
+    "dead_brain_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_brain_coral_fan"
+          }
+        ]
+      }
+    },
+    "dead_bubble_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_bubble_coral_fan"
+          }
+        ]
+      }
+    },
+    "dead_fire_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_fire_coral_fan"
+          }
+        ]
+      }
+    },
+    "dead_horn_coral_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_horn_coral_fan"
+          }
+        ]
+      }
+    },
+
+    "tube_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:tube_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "brain_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:brain_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "bubble_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:bubble_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "fire_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:fire_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "horn_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:horn_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "dead_tube_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_tube_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "dead_brain_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_brain_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "dead_bubble_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_bubble_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "dead_fire_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_fire_coral_wall_fan"
+          }
+        ]
+      }
+    },
+    "dead_horn_coral_wall_fan": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dead_horn_coral_wall_fan"
+          }
+        ]
+      }
+    }
+  }
+}
