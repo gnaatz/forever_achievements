@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:adventure/play_jukebox_in_meadows",
+  "parent": "forever:forever/builder",
   "criteria": {
     "harp": {
       "trigger": "minecraft:default_block_use",
