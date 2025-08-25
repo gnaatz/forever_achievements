@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": "The Collector",
+    "description": "Get a bundle to start collecting",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "forever:forever/builder",
+  "criteria": {
+    "netherite": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

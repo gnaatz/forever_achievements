@@ -19,5 +19,8 @@
     [
       "done"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "forever:setup"
+  }
 }

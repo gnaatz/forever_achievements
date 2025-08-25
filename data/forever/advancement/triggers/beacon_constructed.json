@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "beacon_constructed": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": 4
+      }
+    }
+  },
+  "rewards": {
+    "function": "forever:check_beacon_type"
+  }
+}
